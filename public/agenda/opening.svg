@@ -1,0 +1,21 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E2C3"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 200) rotate(90) scale(400 800)">
+      <stop stop-color="#00E2C3" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00E2C3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="800" rx="32" fill="#121821"/>
+  <rect x="0" y="0" width="1200" height="800" rx="32" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <path d="M80 600 C 200 540, 260 520, 340 520 C 420 520, 480 560, 560 560 C 640 560, 700 500, 780 480 C 860 460, 940 480, 1120 420" stroke="url(#g)" stroke-width="8" fill="none"/>
+    <circle cx="1120" cy="420" r="12" fill="#00E2C3"/>
+    <path d="M1120 420 l -36 12 l 18 -32 z" fill="#00E2C3"/>
+  </g>
+  <text x="64" y="112" fill="#E6F1FF" font-family="Inter, ui-sans-serif" font-size="42" font-weight="700">Why adopt AI now</text>
+  <text x="64" y="156" fill="#A8B3CF" font-family="Inter, ui-sans-serif" font-size="20">Faster first drafts → more iterations → better outcomes</text>
+</svg>

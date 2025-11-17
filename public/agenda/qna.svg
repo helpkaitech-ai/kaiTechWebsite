@@ -1,0 +1,24 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7A5AF8"/>
+      <stop offset="1" stop-color="#00E2C3"/>
+    </linearGradient>
+    <radialGradient id="bg4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 640) rotate(-90) scale(360 800)">
+      <stop stop-color="#00E2C3" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00E2C3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" rx="32" fill="#121821"/>
+  <rect width="1200" height="800" rx="32" fill="url(#bg4)"/>
+  <g fill="url(#g4)">
+    <path d="M260 280 a60 60 0 1 1 120 0 a50 50 0 0 1 -40 49 v31 h-40 v-56 a50 50 0 0 1 -40 -49z"/>
+    <rect x="290" y="430" width="60" height="20" rx="10" />
+    <path d="M540 280 a60 60 0 1 1 120 0 a50 50 0 0 1 -40 49 v31 h-40 v-56 a50 50 0 0 1 -40 -49z"/>
+    <rect x="570" y="430" width="60" height="20" rx="10" />
+    <path d="M820 280 a60 60 0 1 1 120 0 a50 50 0 0 1 -40 49 v31 h-40 v-56 a50 50 0 0 1 -40 -49z"/>
+    <rect x="850" y="430" width="60" height="20" rx="10" />
+  </g>
+  <text x="64" y="112" fill="#E6F1FF" font-family="Inter, ui-sans-serif" font-size="42" font-weight="700">Q&A and next steps</text>
+  <text x="64" y="156" fill="#A8B3CF" font-family="Inter, ui-sans-serif" font-size="20">Prompt libraries, governance basics, and a 48‑hour challenge</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E2C3"/>
+      <stop offset="1" stop-color="#7A5AF8"/>
+    </linearGradient>
+    <radialGradient id="bg3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 160) rotate(90) scale(400 800)">
+      <stop stop-color="#7A5AF8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7A5AF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" rx="32" fill="#121821"/>
+  <rect width="1200" height="800" rx="32" fill="url(#bg3)"/>
+  <g stroke="#1C2430" stroke-width="2">
+    <rect x="120" y="160" width="280" height="200" rx="16" fill="#0B0F14"/>
+    <rect x="460" y="160" width="280" height="200" rx="16" fill="#0B0F14"/>
+    <rect x="800" y="160" width="280" height="200" rx="16" fill="#0B0F14"/>
+    <rect x="290" y="420" width="280" height="200" rx="16" fill="#0B0F14"/>
+    <rect x="630" y="420" width="280" height="200" rx="16" fill="#0B0F14"/>
+  </g>
+  <g>
+    <circle cx="260" cy="260" r="34" fill="url(#g3)"/>
+    <rect x="510" y="230" width="180" height="60" rx="12" fill="url(#g3)"/>
+    <path d="M940 210 h80 v100 h-80 z" fill="url(#g3)"/>
+    <path d="M430 520 h80 v20 h-80 z" fill="url(#g3)"/>
+    <path d="M770 520 h140 v20 h-140 z" fill="url(#g3)"/>
+  </g>
+  <text x="64" y="112" fill="#E6F1FF" font-family="Inter, ui-sans-serif" font-size="42" font-weight="700">Hands‑on build</text>
+  <text x="64" y="156" fill="#A8B3CF" font-family="Inter, ui-sans-serif" font-size="20">We create five assets end‑to‑end in the browser</text>
+</svg>

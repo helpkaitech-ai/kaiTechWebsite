@@ -1,0 +1,25 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#7A5AF8"/>
+    </linearGradient>
+    <radialGradient id="bg2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 160) rotate(90) scale(420 800)">
+      <stop stop-color="#00D9FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" rx="32" fill="#121821"/>
+  <rect width="1200" height="800" rx="32" fill="url(#bg2)"/>
+  <g stroke="url(#g2)" stroke-width="6">
+    <rect x="120" y="160" width="220" height="140" rx="16" fill="#0B0F14"/>
+    <rect x="120" y="340" width="220" height="140" rx="16" fill="#0B0F14"/>
+    <rect x="120" y="520" width="220" height="140" rx="16" fill="#0B0F14"/>
+    <rect x="360" y="160" width="320" height="220" rx="16" fill="#0B0F14"/>
+    <rect x="360" y="400" width="320" height="260" rx="16" fill="#0B0F14"/>
+    <rect x="700" y="160" width="380" height="320" rx="16" fill="#0B0F14"/>
+    <rect x="700" y="500" width="380" height="160" rx="16" fill="#0B0F14"/>
+  </g>
+  <text x="64" y="112" fill="#E6F1FF" font-family="Inter, ui-sans-serif" font-size="42" font-weight="700">Tool landscape & fit</text>
+  <text x="64" y="156" fill="#A8B3CF" font-family="Inter, ui-sans-serif" font-size="20">Choose by outcome, privacy, and export formats</text>
+</svg>
