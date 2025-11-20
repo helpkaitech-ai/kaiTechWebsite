@@ -6,8 +6,10 @@ import Lenis from "lenis";
 export default function SmoothScroll() {
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: 0.08,
-      wheelMultiplier: 1,
+      // Higher lerp = more responsive (less floaty) while staying smooth
+      lerp: 0.16,
+      smoothWheel: true,
+      wheelMultiplier: 1.3,
     });
 
     let rafId: number;
